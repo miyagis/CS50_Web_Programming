@@ -1,0 +1,15 @@
+h1 {
+	color: lightsteelblue;
+	text-align: center;
+}
+
+div {
+	background-color: teal;
+	width: 100px;
+	height: 100px;
+	margin: 30px;
+	padding: 20px;
+	font-family: Arial, sans-serif;
+	border: 3px solid blue;
+}
+
