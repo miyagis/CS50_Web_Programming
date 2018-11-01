@@ -3,6 +3,10 @@ h1 {
 	text-align: center;
 }
 
+p::selection{
+	background-color: red;
+}
+
 div {
 	background-color: teal;
 	width: 200px;
@@ -13,6 +17,7 @@ div {
 	border: 3px solid blue;
 }
 
+/*Applies to all listed elements*/
 table, th, td {
 	border: 1px solid black;
 	border-collapse: collapse;
@@ -24,4 +29,24 @@ table, th, td {
 
 .myclass {
 	color: red;
+}
+
+/*applies only to the li inside an ol */
+ol li {
+	color: green;
+}
+
+/*Different background-color of th einput box depending on the expected data type*/
+input[type=text] {
+	background-color: blue;
+}
+input[type=number]{
+	background-color: yellow;
+}
+input[type=password]{
+	background-color: red;
+}
+
+button:hover{
+	background-color: orange;
 }
